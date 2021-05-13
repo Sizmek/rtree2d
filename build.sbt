@@ -118,7 +118,7 @@ lazy val `rtree2d-core` = crossProject(JVMPlatform, JSPlatform, NativePlatform)
     })
   )
   .nativeSettings(
-    crossScalaVersions := Seq("2.13.5", scalaVersion.value),
+    crossScalaVersions := Seq("2.13.5", scalaVersion.value, "2.11.12"),
   )
   .jsSettings(
     crossScalaVersions := Seq("3.0.0-RC3", "2.13.5", scalaVersion.value, "2.11.12"),
